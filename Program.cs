@@ -35,7 +35,7 @@ if (number < 0)
 if (number > 100)
 {
     int digit = number.ToString()[digitIndex] - '0';
-    Console.WriteLine("Третья цифра " + digit + " //первым способом");
+    Console.WriteLine("Третья цифра " + digit );
 }
 else
 {
