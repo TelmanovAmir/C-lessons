@@ -55,8 +55,6 @@
 // if (i > 7 | i < 1) Console.WriteLine("Такого дня не существует");
 
 
-
-
 // Задача 19
 // Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 // 14212 -> нет
@@ -88,7 +86,6 @@
 //     Console.WriteLine("Введено некорректное число");
 // }
 
-
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 // A (3,6,8); B (2,1,-7), -> 15.84
@@ -119,11 +116,11 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите число N");
-double N = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите число N");
+// double N = Convert.ToDouble(Console.ReadLine());
 
-for (int i = 1; i <= N; i++)
-{
-    double result = Math.Pow(i, 3);
-    Console.WriteLine(result);
-}
+// for (int i = 1; i <= N; i++)
+// {
+//     double result = Math.Pow(i, 3);
+//     Console.WriteLine(result);
+// }
