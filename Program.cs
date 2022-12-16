@@ -116,11 +116,65 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите число N");
-double N = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите число N");
+// double N = Convert.ToDouble(Console.ReadLine());
 
-for (int i = 1; i <= N; i++)
+// for (int i = 1; i <= N; i++)
+// {
+//     double result = Math.Pow(i, 3);
+//     Console.WriteLine(result);
+// }
+
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+// Console.WriteLine("Введите число A");
+// int A = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число B");
+// int B = Convert.ToInt32(Console.ReadLine());
+// int i;
+// int sum = 1;
+
+// for (i = 1; i <= B; i++)
+// {
+//     sum = A * sum;
+// }
+// Console.WriteLine($"Число {A} в степени {B} равно = {sum}");
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+// number = Math.Abs(number);
+// int sum = 0;
+// int res = 0;
+// int num1;
+
+
+// while (number > 10)
+// {
+//     num1 = number % 10;
+//     sum = sum + num1;
+//     number = number / 10;
+// }
+// if (number<10)
+// {
+//     res = sum + number;
+// }
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+int[] arr = new int[8];
+
+Console.WriteLine("Введите 8 (Восемь) целых чисел для создания массива");
+
+for (int i = 0; i < arr.Length; i++)
 {
-    double result = Math.Pow(i, 3);
-    Console.WriteLine(result);
+    arr[i] = Convert.ToInt32(Console.ReadLine());
 }
+Console.WriteLine("Вы создали массив:");
+Console.Write(string.Join(", ", arr));
